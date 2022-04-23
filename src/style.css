@@ -6,6 +6,16 @@
   color: #17202a;
   margin-bottom: 5rem;
 }
+
+a {
+  text-decoration: underline;
+  color: black
+}
+
+a:visited {
+  color: black;
+}
+
 html {
   height: 100vh;
 }
