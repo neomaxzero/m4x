@@ -2,13 +2,19 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "node server.js",
+    "test": "jest",
+    "start": "nodemon src/server/index.js",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/jest": "^27.4.1",
     "express": "^4.17.3",
+    "jest": "^28.0.2",
+    "nodemon": "^2.0.15",
+    "ts-jest": "^27.1.4",
     "typescript": "^4.5.4",
     "vite": "^2.9.5"
   }
