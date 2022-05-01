@@ -4,7 +4,10 @@
   "version": "0.0.0",
   "scripts": {
     "start": "node server.js",
-    "build": "tsc && vite build",
+    "build": "yarn build:client && yarn build:server && yarn pre-render",
+    "pre-render": "node src/scripts/pre-render",
+    "build:client": "vite build --outDir dist/client --ssrManifest",
+    "build:server": "vite build --outDir dist/server --ssr src/server/index.js ",
     "preview": "vite preview"
   },
   "devDependencies": {
