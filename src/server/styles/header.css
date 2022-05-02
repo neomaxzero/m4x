@@ -1,0 +1,13 @@
+header {
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    margin-right: 8px;
+}
+
+a.active {
+    text-decoration: none;
+}

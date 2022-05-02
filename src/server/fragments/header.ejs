@@ -1,1 +1,10 @@
-<h1>test</h1>
+<header>
+  <% if (showHome) {%>
+    <a href="/">home</a>
+  <% } %>
+  <a href="https://blog.m4x.io">blog</a>
+   <a href="/about" class="
+        <%= page === 'about' ? 'active': '' %>">
+        about
+    </a>
+</header>

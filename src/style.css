@@ -1,23 +1,15 @@
 * {
   margin: 0;
+  color: white;
 }
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #17202a;
-  margin-bottom: 5rem;
-}
 
 a {
   text-decoration: underline;
-  color: black
 }
 
 a:visited {
-  color: black;
+  color: white;
 }
 
 html {
@@ -25,16 +17,27 @@ html {
 }
 
 body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
   background-color: #21D4FD;
   background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: column;  
   align-items: center;
   height: 100%;
+
 }
 
 h1 {
   font-size: 7rem;
   color: white;
+}
+
+main {
+  flex-grow: 1;
+
 }
