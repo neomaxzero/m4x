@@ -41,3 +41,24 @@ main {
   flex-grow: 1;
 
 }
+
+nav {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+section {
+  margin-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+section p {
+
+  max-width: 600px;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
