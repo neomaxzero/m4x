@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "start": "vite start"
+    "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
     "@types/react": "^19.2.14",

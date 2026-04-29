@@ -144,10 +144,6 @@ button {
   font: inherit;
 }
 
-#root {
-  min-height: 100vh;
-}
-
 .site-shell {
   width: var(--shell);
   margin: 0 auto;

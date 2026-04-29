@@ -9,7 +9,7 @@ export default defineConfig({
   },
   plugins: [
     tanstackStart(),
-    nitro(),
+    nitro({ renderer: false }),
     viteReact(),
   ],
 })

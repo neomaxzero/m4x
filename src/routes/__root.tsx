@@ -1,4 +1,10 @@
-import { Outlet, createRootRoute, HeadContent, Scripts } from '@tanstack/react-router'
+import type { ReactNode } from 'react'
+import {
+  HeadContent,
+  Outlet,
+  Scripts,
+  createRootRoute,
+} from '@tanstack/react-router'
 import '../style.css'
 
 export const Route = createRootRoute({
@@ -14,7 +20,15 @@ export const Route = createRootRoute({
 
 function RootComponent() {
   return (
-    <html>
+    <RootDocument>
+      <Outlet />
+    </RootDocument>
+  )
+}
+
+function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
+  return (
+    <html lang="en">
       <head>
         <HeadContent />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -31,7 +45,7 @@ function RootComponent() {
         />
       </head>
       <body>
-        <Outlet />
+        {children}
         <Scripts />
       </body>
     </html>
