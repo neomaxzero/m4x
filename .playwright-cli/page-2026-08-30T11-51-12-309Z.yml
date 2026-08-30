@@ -1,0 +1,25 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - link "0000" [ref=e4] [cursor=pointer]:
+      - /url: /
+    - paragraph [ref=e5]: Maximiliano Cespedes.
+  - region [ref=e6]:
+    - heading "Portfolio" [level=1] [ref=e7]
+    - generic [ref=e8]:
+      - link "Visit Stepcraft" [ref=e9] [cursor=pointer]:
+        - /url: https://www.stepcraft.app
+        - strong [ref=e11]: Stepcraft
+        - generic [ref=e12]: co-founded
+      - link "Visit Tike" [ref=e13] [cursor=pointer]:
+        - /url: https://www.tike.com.ar
+        - img "Tike" [ref=e14]
+        - generic [ref=e15]: co-founded
+      - link "Visit WeTransfer" [ref=e16] [cursor=pointer]:
+        - /url: https://wetransfer.com
+        - strong [ref=e17]: WeTransfer
+      - link "Visit Coolblue" [ref=e18] [cursor=pointer]:
+        - /url: https://www.coolblue.nl
+        - strong [ref=e19]: Coolblue
+      - link "Visit Creative Fabrica" [ref=e20] [cursor=pointer]:
+        - /url: https://www.creativefabrica.com
+        - strong [ref=e21]: CreativeFabrica

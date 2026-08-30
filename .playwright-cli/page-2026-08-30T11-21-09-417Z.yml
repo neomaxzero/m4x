@@ -1,0 +1,13 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - heading "0000.com.ar" [level=1] [ref=e4]
+    - paragraph [ref=e5]: Maximiliano Céspedes.Product engineer and independent builder.
+  - navigation "Links" [ref=e6]:
+    - link "Email" [ref=e7] [cursor=pointer]:
+      - /url: mailto:hello@0000.com.ar
+    - link "LinkedIn" [ref=e8] [cursor=pointer]:
+      - /url: https://www.linkedin.com/in/neomaxzero/
+    - link "GitHub" [ref=e9] [cursor=pointer]:
+      - /url: https://github.com/neomaxzero/
+    - link "Blog" [ref=e10] [cursor=pointer]:
+      - /url: https://blog.0000.com.ar

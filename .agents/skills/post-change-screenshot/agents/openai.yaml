@@ -1,0 +1,4 @@
+interface:
+  display_name: "Post-change screenshot"
+  short_description: "Capture and deliver UI screenshots after visual changes"
+  default_prompt: "Verify the changed UI and include a screenshot in the final response."

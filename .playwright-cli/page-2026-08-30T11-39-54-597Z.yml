@@ -1,0 +1,25 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - heading "0000" [level=1] [ref=e4]
+    - paragraph [ref=e5]: Maximiliano Cespedes.
+  - region [ref=e6]:
+    - heading "I design and build digital products." [level=2] [ref=e7]
+    - paragraph [ref=e8]: Product-minded engineering for ambitious ideas, from early direction to polished interfaces.
+  - generic [ref=e9]:
+    - generic [ref=e10]:
+      - region [ref=e11]:
+        - heading "Selected focus" [level=2] [ref=e12]
+        - paragraph [ref=e13]: Product engineeringFrontend systemsAI product advisory
+      - region [ref=e14]:
+        - heading "Availability" [level=2] [ref=e15]
+        - paragraph [ref=e16]: Open for selected projectsRemote from the Netherlands
+    - generic [ref=e17]:
+      - link "hello@0000.com.ar" [ref=e18] [cursor=pointer]:
+        - /url: mailto:hello@0000.com.ar
+      - navigation "Links" [ref=e19]:
+        - link "LinkedIn" [ref=e20] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/neomaxzero/
+        - link "GitHub" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/neomaxzero/
+        - link "Blog" [ref=e22] [cursor=pointer]:
+          - /url: https://blog.0000.com.ar
