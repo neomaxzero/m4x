@@ -185,6 +185,9 @@ a:focus-visible {
 .portfolio__content {
   align-self: end;
   margin: 96px -24px 0;
+}
+
+.portfolio__logos {
   padding: 32px 24px 40px;
   background: #f6f7f9;
 }
@@ -192,6 +195,32 @@ a:focus-visible {
 .portfolio h1 {
   font-size: 14px;
   line-height: 1.4;
+}
+
+.project-detail {
+  min-height: 88px;
+  max-width: 620px;
+  padding: 0 24px 40px;
+}
+
+.project-detail__content {
+  animation: project-detail-in 300ms ease both;
+}
+
+.project-detail strong {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.project-detail p {
+  max-width: 560px;
+  margin: 8px 0 0;
+  color: #4b4f56;
+  font-size: clamp(18px, 2.2vw, 25px);
+  letter-spacing: -0.025em;
+  line-height: 1.25;
 }
 
 .project-list {
@@ -273,10 +302,23 @@ a:focus-visible {
 }
 
 .project:hover,
-.project:focus-visible {
+.project:focus-visible,
+.project--active {
   opacity: 1;
   filter: grayscale(0);
   transform: translateY(-4px);
+}
+
+.project:focus-visible {
+  outline: 1px solid currentColor;
+  outline-offset: 6px;
+}
+
+@keyframes project-detail-in {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
 }
 
 @keyframes appear {
@@ -292,6 +334,14 @@ a:focus-visible {
   .home__details,
   .home__footer {
     animation: none;
+  }
+
+  .project-detail__content {
+    animation: none;
+  }
+
+  .project {
+    transition: none;
   }
 }
 
@@ -320,7 +370,16 @@ a:focus-visible {
   .portfolio__content {
     margin-right: -32px;
     margin-left: -32px;
+  }
+
+  .portfolio__logos {
     padding: 40px 32px 48px;
+  }
+
+  .project-detail {
+    padding-right: 32px;
+    padding-bottom: 48px;
+    padding-left: 32px;
   }
 }
 
@@ -339,5 +398,9 @@ a:focus-visible {
 
   .project-list {
     gap: 16px;
+  }
+
+  .project-detail {
+    min-height: 112px;
   }
 }
