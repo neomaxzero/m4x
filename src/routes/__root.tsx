@@ -31,7 +31,7 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
     <html lang="en">
       <head>
         <HeadContent />
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="icon" type="image/svg+xml" href="/brand-mark.svg" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDF17VT6YS" />
         <script
           dangerouslySetInnerHTML={{
